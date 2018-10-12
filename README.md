@@ -1,4 +1,4 @@
-# Disaster-managing-system
+# Group-rescue-system-from-disasters
 
 ## Basic Idea
 When disaster strikes, there may be cases that rescue team might not be able to help all people stuck at different places.
@@ -9,17 +9,17 @@ At the time of calamity, people might get stuck such that there is no one around
 In that case, we develop a system which allows the people to connect with other people through radio frequencies in close proximity(say 5-10 kms).
 This allows the victims to form a chain of signals which acts as a flag for the rescue teams and gives more precise location for the rescue teams to help them.
 
-## Features
-* Radio transmission
+## Characteristics
+* __Radio transmission__
   - To send signals at predecided frequencies, which works on the principle 
     of scatter gather used in FPGAs.
   - These predecided frequencies will be different for different regions.
-* Radio Devices
+* __Radio Devices__
   - The devices will be available with people in the form of mobile app or 
     any radio signal reciever/transmitter.
   - The radio signals will be sent continuously once switched on, even if 
     the power goes off.
-* Central server
+* __Control server__
   - This is the part which we want to do.
   - It will manage where the clusters are located.
   - Assign the requirements for different clusters.
@@ -34,6 +34,7 @@ will be more efficient in working and we will have good success rate. We will us
 instead of mobile gps etc. so to identify the cluster location and send this data to main server
 of rescue team so that they can help them with food supply and medical kit first and then arrange
 a rescue team for them.
+If someone are very close than they can connect through WI-FI and our chatbox feature and help each other.
 
 ## Implementation & Requirements
 We will plan to set up our radio signals transmitter and reciever and make it co ordinare with our
